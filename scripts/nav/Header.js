@@ -1,5 +1,5 @@
 export const Logo = () => {
     return `
-        <div>Logo</div>
+        <div>Java Provider Coffee</div>
     `
 }

@@ -1,5 +1,7 @@
 export const Contact = (contactObject) => {
     return `
-        <div>${contactObject.info}</div>
+        <p>
+            ${contactObject.infoType}: ${contactObject.info}
+        </p>
     `
 }

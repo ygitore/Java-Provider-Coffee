@@ -1,5 +1,5 @@
-export const businessName = () => {
+export const BusinessName = () => {
     return `
-        <h1>Java Provider Coffee </div>
+        <p>Java Provider</p>
     `
-}   
+}
