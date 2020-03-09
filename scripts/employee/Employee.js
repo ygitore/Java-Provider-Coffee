@@ -1,6 +1,8 @@
+let i = 0;
 const Employee = (employeeObject) => {
+    i = i+1;
     return `
-        <div>${employeeObject.firstName}</div>
+        <div id ="first-name">${i}.${employeeObject.firstName}</div>
     `
 }
 

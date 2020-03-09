@@ -3,9 +3,7 @@ import { Contact } from "./Contact.js"
 
 export const ContactList = () => {
     const contacts = useContactInfo()
-
-    let allContactsHTML = "✔✔✔✔✔✔"
-
+    let allContactsHTML = ""
     for (const contact of contacts) {
         allContactsHTML += Contact(contact)
     }

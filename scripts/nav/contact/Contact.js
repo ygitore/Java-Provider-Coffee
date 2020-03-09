@@ -1,7 +1,7 @@
 export const Contact = (contactObject) => {
     return `
-        <p>
+        <div>
             ${contactObject.infoType}: ${contactObject.info}
-        </p>
+        </div>
     `
 }

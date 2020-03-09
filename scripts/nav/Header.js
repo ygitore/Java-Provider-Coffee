@@ -1,5 +1,7 @@
-export const Logo = () => {
-    return `
-        <div>Java Provider Coffee</div>
-    `
+import { BusinessName } from "./BusinessName.js"
+
+const contentTarget = document.querySelector('.title_of_site')
+export const companyName = () => {
+    const businessName = BusinessName()
+    contentTarget.innerHTML = `${businessName}`
 }

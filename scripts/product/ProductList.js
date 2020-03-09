@@ -1,7 +1,7 @@
 import { useProducts } from "./productDataProvider.js";
-import { Product } from "./Contact.js";
+import { Product } from "./Product.js";
 
-const contentTarget = document.querySelector('.')
+const contentTarget = document.querySelector('.product_list')
 
 export const product = () => {
     const products = useProducts()
